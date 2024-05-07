@@ -11,10 +11,10 @@
     0%
     {
     transform: rotate (0deg);
-    (
+}
     100% {
     transform: rotate (360deg);
-    }   
+}   
 }
 .burger-icon {
     animation: itrotates 2s infinite;
