@@ -1,7 +1,6 @@
 @import './partials/base';
 
 .card {
-    margin-top: 30 px;
     transition: transform 0.2s;
     &:hover {
         transform: translateY(20px);
