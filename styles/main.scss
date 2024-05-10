@@ -1,19 +1,4 @@
-@import "./partials/base";
+@import './vendor/normalize';
+@import './partials/base';
 
-.card {
-  transition: transform 0.2s;
-  &:hover {
-    transform: translateY(20px);
-  }
-}
-@keyframes itrotates {
-  0% {
-    transform: rotate (0deg);
-  }
-  100% {
-    transform: rotate (360deg);
-  }
-}
-.burger-icon {
-  animation: itrotates 2s infinite;
-}
+// Class assignment code below this line
